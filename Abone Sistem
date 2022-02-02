@@ -1,0 +1,22 @@
+$nomention
+$onlyPerms[manageroles;Gerekli Yetkin Yok!]
+$giveRole[$mentioned[1];917167986035535892]
+$useChannel[922532662550331452]
+$title[Abone Rolü Verildi!]
+$description[
+__Abone Rol Veren Yetkili:__ <@$authorID> | `$authorID`
+
+__Abone Rol Alan Kullanıcı:__ <@$mentioned[1]> | `$mentioned[1]`
+
+<@$authorID> kullanıcısı toplam **$getUserVar[VerilenAbone;$authorID]** abone rolü verdi!]
+$footer[❤️ • discord.gg/bdfd]
+$footerIcon[$authorAvatar]
+$addTimestamp
+$color[67ba68]
+$setUserVar[VerilenAbone;$sum[$getUserVar[VerilenAbone;$authorID];1];$authorID] 
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: VerilenAbone // Değeri 0
+Tetikleyici: {prefix}abone
+Dil: BDScript
