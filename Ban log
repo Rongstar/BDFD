@@ -1,0 +1,13 @@
+$nomention
+$onlyPerms[ban;Yetkin yok!]
+$ban[$noMentionMessage]
+$useChannel[922532662550331452]
+$title[Yeni bir kullanıcı yasaklandı!]
+$description[
+Yasaklanan kullanıcı: <@$mentioned[1]>
+Yasaklayan Yetkili: <@$authorID>
+]
+$color[B38844]
+$footer[$username Tarafından yeni yasak!]
+$footerIcon[$authorAvatar]
+$addTimestamp
