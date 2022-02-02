@@ -1,0 +1,18 @@
+$nomention
+$title[Loop | Yardım Menüsü]
+$description[
+`b?abone-yardım` : Abone sistemi hakkında bilgi verir.
+`b?botlist-yardım` : Botlist sistemi hakkında bilgi verir.
+
+**Toplam "**$allMembersCount**" kullanıcıya hizmet ediliyor.**
+]
+$footer[❤️ • discord.gg/bdfd]
+$footerIcon[$authorAvatar]
+$addTimestamp
+$color[67ba68]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine ihtiyaç yoktur.
+Tetikleyici: {prefix}yardım
+Dil: BDScript
