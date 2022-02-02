@@ -1,0 +1,14 @@
+$nomention
+$var[a;$getTimestamp+$getCooldown[normal]]
+$cooldown[10s;Bu komutu tekrar **$calculate[(((($var[a]-$getTimestamp)/60)*60))] Saniye sonra** kullanabilirsin.]
+$description[💵 Mevcut Para: $getUserVar[Bakiye;$authorID]]
+$footer[❤️•discord.gg/bdfd]
+$footerIcon[$authorAvatar]
+$addTimestamp
+$color[67ba68]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: Bakiye // Değeri 0
+Tetikleyici: {prefix}banka
+Dil: BDScript 2
