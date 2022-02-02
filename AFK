@@ -1,0 +1,26 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$setUserVar[afk;yes;$authorID]
+$setUserVar[afkmsg;$message;$authorID]
+$description[
+$message Sebebi İle AFK Kaldın!✅]
+$nomention
+$setUserVar[afk;no;$authorID]
+$setUserVar[afkmsg;;$authorID]
+AFK'dan Çıktın✅  !
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: afk // Değeri no
+Tetikleyici: {prefix}afk
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyIf[$getUserVar[afk;$mentioned[1]]!=no;]
+$description[Etiketlediğiniz Kişi $getUserVar[afkmsg;$mentioned[1]] Sebebi İle AFK :)]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: afkmsg // Değeri boş olacak.
+Tetikleyici: <@
+Dil: BDScript
