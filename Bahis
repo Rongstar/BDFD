@@ -1,0 +1,15 @@
+$onlyIf[$isNumber[$noMentionMessage]==true;Miktar yazmalısın!!.]
+$onlyIf[$getUserVar[Money;$authorID]>=$noMentionMessage;Not Enough Money To Bet]
+$​onlyIf[$​noMentionMessage>0;You can't bet anything]
+$title[Bet]
+$​onlyIf[$​noMentionMessage<=$​getUserVar[Money];You can't bet more Money then you have.]
+$​cooldown[5s;You need to wait %time% seconds before using this command again]
+$​setUserVar[Money;$​$​replaceText[$​replaceText[$​randomText[1;2;1;2;1;2];1;sum;1];2;sub;1][$​getUserVar[Money];$​noMentionMessage]]
+$​description[kayıp ettin $​replaceText[$​replaceText[$​randomText[1;2;1;2;1;2];1;earned;1];2;lost;1] ($$​noMentionMessage)] 
+$color[FFFF5]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değeri: Money // Değeri 0
+Tetikleyici: {prefix}bahis
+Dil: BDScript 2
