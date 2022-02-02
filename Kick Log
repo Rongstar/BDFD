@@ -1,0 +1,18 @@
+$nomention
+$onlyPerms[kick;Yetkin yok!]
+$kick[$noMentionMessage]
+$useChannel[922532662550331452]
+$title[Yeni bir kullanıcı atıldı!]
+$description[
+Atılan kullanıcı: <@$mentioned[1]>
+Atan Yetkili: <@$authorID>
+]
+$color[B38844]
+$footer[$username yeni bir kullanıcı attı.]
+$footerIcon[$authorAvatar]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}kick
+Dil: BDScript
