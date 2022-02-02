@@ -1,0 +1,76 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$cooldown[15s;Bekleme süren var!]
+Aşağıdaki butonlardan birine tıkla ve seçimini yap!
+$addButton[yes;taş;Taş;secondary;no;✊]
+$addButton[no;kağıt;Kağıt;secondary;no;✋]
+$addButton[no;makas;Makas;secondary;no;✂️]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}tkm
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$var[tkm;$randomText[taş;kağıt;makas]]
+$if[$var[tkm]==taş]
+Rakibin **taş** yaptı, durum berabere!
+$endif
+$if[$var[tkm]==kağıt]
+Rakibin **kağıt** yaptı, kaybettin!
+$endif
+$if[$var[tkm]==makas]
+Rakibin **makas** yaptı, kazandın!
+$endif
+$editButton[taş;Taş;secondary;yes;✊]
+$editButton[kağıt;Kağıt;secondary;yes;✋]
+$editButton[makas;Makas;secondary;yes;✂️]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: $onInteraction[taş]
+Dil: BDScript 2
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$var[tkm;$randomText[taş;kağıt;makas]]
+$if[$var[tkm]==taş]
+Rakibin **taş** yaptı, kazandın!
+$endif
+$if[$var[tkm]==kağıt]
+Rakibin **kağıt** yaptı, durum berabere!
+$endif
+$if[$var[tkm]==makas]
+Rakibin **makas** yaptı, kaybettin!
+$endif
+$editButton[taş;Taş;secondary;yes;✊]
+$editButton[kağıt;Kağıt;secondary;yes;✋]
+$editButton[makas;Makas;secondary;yes;✂️]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: $onInteraction[kağıt]
+Dil: BDScript 2
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$var[tkm;$randomText[taş;kağıt;makas]]
+$if[$var[tkm]==taş]
+Rakibin **taş** yaptı, kaybettin!
+$endif
+$if[$var[tkm]==kağıt]
+Rakibin **kağıt** yaptı, kazandın!
+$endif
+$if[$var[tkm]==makas]
+Rakibin **makas** yaptı, durum berabere!
+$endif
+$editButton[taş;Taş;secondary;yes;✊]
+$editButton[kağıt;Kağıt;secondary;yes;✋]
+$editButton[makas;Makas;secondary;yes;✂️]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: $onInteraction[makas]
+Dil: BDScript 2
