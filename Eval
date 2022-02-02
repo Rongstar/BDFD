@@ -1,0 +1,10 @@
+$nomention
+$eval[$message]
+$onlyForIDs[ID NİZİ YAZIN; Bu komutu sadece bot sahibi kullanabilir.]  
+
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}eval
+Dil: BDScript 2
