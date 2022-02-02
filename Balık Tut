@@ -1,0 +1,20 @@
+$nomention
+$title[Balık Tutuyorsun !]
+$description[$thumbnail[https://cdn.discordapp.com/attachments/782953143481663521/793493376657784862/indir-removebg-preview.png]
+Oltanı Denizin En Derinliklerine Doğru Atıyorsun.
+
+Sandalda Oturmuş Sabırla Bekliyorsun...]
+$footer[$username Sabır Erdemdir]
+
+$editEmbedIn[6s; Balık Tuttun !;$random[0;3] Tane Balık Tuttun.
+$replaceText[$replaceText[$checkContains[$random[0;3];0];true;Kovana Balık Girmedi XD;-1];false;;-1]; Sabreden Derviş Muradına Ermiş;2ECC71]
+
+$setUserVar[balık;$sum[$getUserVar[balık;$authorID];$random[0;3]];$authorID]
+
+$cooldown[30s;Biraz Yoruldun.Ve Gidip Solunda Duran Sudan İçiyorsun.Daha Sonra Oltanın İpini Vesaire Kontrol Ediyorsun]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: Balık // Değeri 0
+Tetikleyici: {prefix}balık-tut
+Dil: BDScript
