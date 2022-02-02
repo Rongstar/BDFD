@@ -1,0 +1,7 @@
+$var[a;$getTimestamp+$getCooldown[normal]]
+$cooldown[24h;Bu komutu tekrar **$calculate[(($var[a]-$getTimestamp)/60)/60] Saat $calculate[((($var[a]-$getTimestamp)/60)-(((($var[a]-$getTimestamp)/60)/60)*60))] Dakika $calculate[(($var[a]-$getTimestamp)-((($var[a]-$getTimestamp)/60)*60))] Saniye sonra** kullanabilirsin.]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+$cooldown[] fonksiyonunu türkçeleştirmeye yarar.
+Dil: BDScript 2
