@@ -1,0 +1,15 @@
+$nomention
+$var[a;$getTimestamp+$getCooldown[normal]]
+$cooldown[24h;Bu komutu tekrar **$calculate[(($var[a]-$getTimestamp)/60)/60] Saat $calculate[((($var[a]-$getTimestamp)/60)-(((($var[a]-$getTimestamp)/60)/60)*60))] Dakika $calculate[(($var[a]-$getTimestamp)-((($var[a]-$getTimestamp)/60)*60))] Saniye sonra** kullanabilirsin.]
+$description[Başarıyla günlük ödülünü aldın!]
+$footer[❤️•discord.gg/bdfd]
+$footerIcon[$authorAvatar]
+$addTimestamp
+$color[67ba68]
+$setUserVar[Bakiye;$sum[$getUserVar[Bakiye;$authorID];500];$authorID] 
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: Bakiye // Değeri 0
+Tetikleyici: {prefix}günlük
+Dil: BDScript 2
