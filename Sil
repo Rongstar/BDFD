@@ -1,0 +1,21 @@
+$nomention
+$onlyPerms[managemessages;Bu komut için **__mesajları yönet__** yetkisine sahip olman lazım.]
+$argsCheck[>1;Kaç mesaj silineceğini belirtmelisin!]
+$deletecommand
+$clear[$message]
+$title[Mesajlar silindi!]
+$description[
+`$message` Adet mesaj temizlendi!
+Temizleyen yetkili: <@$authorID>
+]
+$color[63A2FC]
+$footer[❤️•shiâ#1000]
+$footerIcon[$authorAvatar]
+$addTimestamp
+$deleteIn[5s]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}sil
+Dil: BDScript
