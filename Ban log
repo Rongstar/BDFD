@@ -11,3 +11,10 @@ $color[B38844]
 $footer[$username Tarafından yeni yasak!]
 $footerIcon[$authorAvatar]
 $addTimestamp
+
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine ihtiyaç yoktur.
+Tetikleyici: {prefix}ban
+Dil: BDScript
