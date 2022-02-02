@@ -1,0 +1,30 @@
+$nomention
+$title[Vhayz | İstatistik]
+$description[
+__**Bot İstatistikleri**__
+> __Kullanıcı Sayısı:__ `$allMembersCount`
+> __Sunucu Sayısı:__ `$serverCount`
+> __Kütüphane:__ `BDScript`
+> __Bot Sahibi:__ <@833977851517861888>
+> __Ping:__ `$ping`
+__**Sunucu İstatistikleri**__
+> __Kullanıcı Sayısı:__ `$membersCount`
+> __Kanal Sayısı:__ `$channelCount`
+> __Emoji Sayısı:__ `$emoteCount`
+> __Rol Sayısı:__ `$roleCount`
+> __Sunucu Sahibi:__ <@$serverOwner>
+> __Sunucu Bölgesi:__ **$serverRegion**
+]
+$thumbnail[$authorAvatar]
+$footer[$nickname tarafından kullanıldı]
+$footerIcon[$serverIcon]
+$addTimestamp
+$color[A5F9FF]
+$addButton[yes;https://discord.com/oauth2/authorize?client_id=925443030750728212&scope=bot%20applications.commands&permissions=2147483647;Botu Davet Et;link;no;🏅]
+$addButton[no;https://discord.gg/bdfd;Destek Sunucusu;link;no;👤]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}istatistik
+Dil: BDScript
