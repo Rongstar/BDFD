@@ -1,0 +1,12 @@
+$nomention
+$title[$username]
+$description[$random1 gemi, $random2 roket, $random3 nukleer silah, ve $random asker fırlattınız. Düşman takım  $random4 roket, $random5 nukleer silah, $random asker, ve $random6 gemi fırlattı.]
+
+ Bir sonraki turda daha fazlasını alabilir ve düşman takımını yenebilir misiniz?(**Sayılar random olarak atılıyor herhangi bir ayrıcalık yoktur.**)
+$addCmdReactions[🔫]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}savaş
+Dil: BDScript
