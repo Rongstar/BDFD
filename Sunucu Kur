@@ -1,0 +1,47 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyForIDs[$serverOwner;Sunucu Sahibi Değilsin]
+$createChannel[:star2:》Kayıt;category]
+$createChannel[:beginner:》Bilgi;category]
+$createChannel[:speech_balloon:》Genel;category]
+$createChannel[:crown:》Yetkili;category]
+$createChannel[:musical_note:》Ses;category]
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyForIDs[$serverOwner;]
+Kanallar Kuruluyor
+Kategoriler Ayarlanıyor
+Roller Kuruluyor.
+$createChannel[Kayıt Kanalı;text;$channelID[:star2:》Kayıt]]
+$createChannel[Teyit Kanalı;voice;$channelID[:star2:》Kayıt]]
+
+$createChannel[Gelen Giden;text;$channelID[:beginner:》Bilgi]]
+$createChannel[Duyurular ;text;$channelID[:beginner:》Bilgi]]
+$createChannel[Bilgilendirme ;text;$channelID[:beginner:》Bilgi]]
+
+$createChannel[Sohbet;text;$channelID[:speech_balloon:》Genel]]
+$createChannel[Foto Sohbet;text;$channelID[:speech_balloon:》Genel]]
+$createChannel[Bot Komut;text;$channelID[:speech_balloon:》Genel]]
+
+$createChannel[Log;text;$channelID[:crown:》Yetkili]]
+$createChannel[Yetkili Duyuru;text;$channelID[:crown:》Yetkili]]
+$createChannel[Yetkili Chat;text;$channelID[:crown:》Yetkili]]
+$createChannel[Toplantı;voice;$channelID[:crown:》Yetkili]]
+
+$createChannel[Sohbet;text;$channelID[:musical_note:》Ses]]
+$createChannel[Müzik;voice;$channelID[:musical_note:》Ses]]
+$createChannel[Müzik 2;voice;$channelID[:musical_note:》Ses]]
+$createChannel[Sohbet 2;voice;$channelID[:musical_note:》Ses]]
+$editIn[6s;İşlem Tamamlandı]
+
+$createRole[:crown: Kurucu; 831F18 ;yes;no]
+$createRole[:gem: Admin;195080;yes;yes]
+$createRole[:hammer_pick: Mod;49CA75;yes;yes]
+$createRole[:fire:Üye;195080;yes;no]
+$createRole[:rocket:Bot;818689;yes;no]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: Sunucukur
+Dil: BDScript
