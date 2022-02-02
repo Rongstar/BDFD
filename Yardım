@@ -1,0 +1,17 @@
+$nomention
+$color[$random[0;99999]]
+$title[Yardım Menüsü]
+$thumbnail[$authorAvatar]
+$description[
+
+Kategorileri & komutları buraya yazınız 
+
+]
+$footer[$username#$discriminator[$authorID]]
+$addTimestamp  
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}yardım
+Dil: BDScript
