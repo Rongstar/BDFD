@@ -1,0 +1,15 @@
+$nomention
+$description[
+Sunucuda **$membersCount** üye var.
+
+$membersCount[online] üye aktif;
+$membersCount[idle] üye boşta;
+$membersCount[dnd]] üye rahatsız etme modunda.
+]
+$footer[<3 shiâ]
+$footerIcon[$serverIcon]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}say
+Dil: BDScript
