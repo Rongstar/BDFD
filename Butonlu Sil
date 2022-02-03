@@ -1,0 +1,43 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyPerms[managemessages;`Mesajları Yônet` yetkin yok!]
+$argsCheck[>1;Kaç mesaj silmek istediğini belirt!]
+`$message` Adet mesaj siliniyor, onaylıyor musun?
+$addButton[yes;evet;Evet;Secondary;no;☑️]
+$addButton[no;hayır;Hayır;Secondary;no;❎]
+$setServerVar[silinecekmesaj;$message;$guildID]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: silinecekmesaj // Değeri boş bırakın
+Tetikleyici: {prefix}sil
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$removeButtons
+$var[mesaj;$getServerVar[silinecekmesaj]]
+$clear[$var[mesaj]]
+$description[
+`$var[mesaj]` Adet mesaj temizlendi!
+]
+$color[87FF82]
+$deleteIn[7s]
+$resetServerVar[silinecekmesaj]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: $onInteraction[evet]
+Dil: BDScript 2
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$description[
+Mesaj silme işlemi iptal edildi!
+]
+$color[D3922F]
+$editButton[evet;Evet;Secondary;yes;☑️]
+$editButton[hayır;Hayır;Secondary;yes;❎]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: $onInteraction[evet]
+Dil: BDScript 2
