@@ -1,0 +1,15 @@
+$nomention
+$author[$message hacklendi]
+$color[ff000]
+$addField[IP;$random[20;254]:$random[9;254]:$random[7;254]:$random[3;254]]
+$addField[EMAIL;$randomText[bad;super;the;hero;lol;fortnite;minecraft;player;gamer]$randomText[Boy;Noob;Pro;Killer;Bot;Hacker]$randomText[HD;XD;Bot;]$random$random@$randomText[email;yandex,yopmail].com]
+$addField[şifresi;$randomText[skhc;iegr;hefr;jegu;je4g;ieh2;02uh;93hk;jez8]$randomText[wie6hd;iehr7j;9eh;93z;oez;963eh;oe6hhoo;ozegi;ozebz;oehdtijrg;heg;o63b;8ezu]$randomText[62;ueg;96eb;uejgr;83ije7;93hrhj;oeijek;83hjt;iehh3]]
+$footer[$username hackledi]
+$footerIcon[$authorAvatar]
+$argsCheck[1;❌kimi hacklemem gerek ismini yaz]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Gereken variable değerleri: Hack // Değeri 0
+Tetikleyici: {prefix}hack
+Dil: BDScript
