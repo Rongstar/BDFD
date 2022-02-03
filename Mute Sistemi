@@ -1,0 +1,20 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyPerms[managemessages;`Üyeleri Yönet` yetkin yok!]
+$timeout[$message[1]s;$noMentionMessage[2]]
+<@$noMentionMessage[2]> Adlı kullanıcıya zaman aşımı uygulandı!
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}mute
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyPerms[managemessages;`Mesajları yönet yetkin yok!]
+$untimeout[$noMentionMessage[1]]
+<@$noMentionMessage[1]> Adlı kullanıcının zaman aşımı kaldırıldı.
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}unmute
+Dil: BDScript
