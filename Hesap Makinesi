@@ -1,0 +1,10 @@
+$nomention
+$title[Sonuç]
+$description[
+$calculate[$message]
+]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}hesapla
+Dil: BDScript
