@@ -1,0 +1,33 @@
+$nomention
+$if[$checkCondition[$message==]]
+$title[$username[$authorID]#$discriminator[] | Kullanıcı Bilgi]
+$description[
+**__Kullanıcı Adı:__** `$username#$discriminator[]`
+**__Kullanıcı ID:__**  `$authorID`
+
+**__Hesap Oluşturma Tarihi:__** `$creationDate[$authorID]`
+**__Sunucuya Katılma Tarihi:__** `$userJoined[$authorID]`
+]
+$footer[$username#$discriminator[] Tarafından istendi.]
+$footerIcon[$authorAvatar]
+$color[00FF00]
+$addTimestamp
+$else
+$title[$username[$mentioned[1]]#$discriminator[$mentioned[1]] | Kullanıcı Bilgi]
+$description[
+**__Kullanıcı Adı:__** `$username[$mentioned[1]]#$discriminator[$mentioned[1]]`
+**__Kullanıcı ID:__** `$mentioned[1]`
+
+**__Hesap Oluşturma Tarihi:__** `$creationDate[$mentioned[1]]`
+**__Sunucuya Katılma Tarihi:__** `$userJoined[$mentioned[1]]`
+]
+$footer[$username#$discriminator[] Tarafından istendi.]
+$footerIcon[$authorAvatar]
+$color[00FF00]
+$addTimestamp
+$endif
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}kullanıcı-bilgi
+Dil: BDScript
