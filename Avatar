@@ -1,0 +1,12 @@
+$nomention
+$​image[$​userAvatar[$​replaceText[$​replaceText[*$​mentioned[<]*;**;$​authorID;1];*$​mentioned[<]*;$​mentioned[<];1]]?size=2048]
+$author[$username[$replaceText[$replaceText[%$mentioned[1]%;%%;$authorID;1];%$mentioned[1]%;$mentioned[1];1]]#$discriminator[$replaceText[$replaceText[%$mentioned[1]%;%%;$authorID;1];%$mentioned[1]%;$mentioned[1];1]]]
+$authorIcon[$userAvatar[$replaceText[$replaceText[%$mentioned[1]%;%%;$authorID;1];%$mentioned[1]%;$mentioned[1];1]]]
+$addTimestamp
+$color[ffffff]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Herhangi bir variable değerine gerek yoktur.
+Tetikleyici: {prefix}avatar
+Dil: BDScript
