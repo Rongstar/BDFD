@@ -1,0 +1,22 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyPerms[managemessages;! Bunu Sadece `Kanalları Yönet` Kişileri Kullanabilir]
+$modifyChannelPerms[$channelID;-sendmessages;$roleID[@everyone]]
+Kanal Başarıyla Kitlendi
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Kanalı kilitler, kimse yazı yazamaz.
+Tetikleyici: {prefix}kilitle
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyPerms[managemessages;! Bunu Sadece `Kanalları Yönet` Kişileri Kullanabilir]
+$modifyChannelPerms[$channelID;+sendmessages;$roleID[@everyone]]
+Kanal Kilidi Açıldı
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Kanal kilitini kaldırır.
+Tetikleyici: {prefix}kilit-aç
+Dil: BDScript
