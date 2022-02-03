@@ -1,0 +1,9 @@
+$nomention
+$giveRole[$authorID;917095744622690304]
+$channelSendMessage[932295786283290694;<@$authorID> adlı kullanıcı sunucuya kayıt oldu.]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Slash komut olarak kullanılması tavsiye edilir.
+Tetikleyici: {prefix}kayıt
+Dil: BDScript
