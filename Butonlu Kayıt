@@ -1,0 +1,27 @@
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$onlyAdmin[Bunun için `Yönetici` olmalısın!]
+$title[Sunucuya Kayıt Ol!]
+$description[
+Sunucuya kayıt olmak için aşağıdaki butona tıklayabilirsin.
+
+**7 gün** içerisinde kayıt olmazsan, sunucudan otomatik olarak yasaklanırsın.
+]
+$color[E91E63]
+$addButton[yes;kaytt;Kayıt Ol;success;no;]
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: {prefix}kayıt
+Dil: BDScript
+<<<<<<<<<<<>>>>>>>>>>>
+$nomention
+$ephemeral
+Sunucuya başarıyla kayıt oldun!
+$giveRole[$authorID;917095744622690304]
+$removeButtons
+<<<<<<<<<<<>>>>>>>>>>>
+<<<< Kod Açıklama >>>>
+<<<<<<<<<<<>>>>>>>>>>>
+Tetikleyici: $onInteraction[kaytt]
+Dil: BDScript
